@@ -4,6 +4,12 @@
 
 > Static sites with superpowers
 
+## Info for Dan!!!
+
+I forked this repo in order to deploy my own instance. No files have been changed in this repo since forking it, except for this small blurb in the ReadMe.
+
+As per [this Staticman GitHub issue](https://github.com/eduardoboucas/staticman/issues/307) I forked the `deploy` branch of the [this unofficial Staticman repo](https://github.com/VincentTam/staticman). I then followed [these instructions](https://www.datascienceblog.net/post/other/staticman_comments/) to get Staticman deployed to my own Heroku instance at https://dansblog-staticman.herokuapp.com. If I need to update my Staticman instance for some reason, I would make the changes here and use the Heroku CLI and run `git push heroku deploy:master` (after logging in with `heroku login`).
+
 ## Introduction
 
 Staticman is a Node.js application that receives user-generated content and uploads it as data files to a GitHub repository. In practice, this allows you to have dynamic content (e.g. blog post comments) as part of a fully static website, as long as your site automatically deploys on every push to GitHub, as seen on [GitHub Pages](https://pages.github.com/), [Netlify](http://netlify.com/) and others.
@@ -88,7 +94,7 @@ Would you like to contribute to Staticman? That's great! Here's how:
 - [/wg/ Startpages](http://startpages.cf/) ([Source](https://github.com/twentytwoo/startpages.cf))
 - [mainstrea.ml](https://mainstrea.ml) ([Source](https://github.com/twentytwoo/mainstrea.ml))
 - [Open Source Design Job Board](http://opensourcedesign.net/jobs/) ([Source](https://github.com/opensourcedesign/jobs/))
-- [zongren.me](https://zongren.me/) ([Source](https://gitlab.com/zongren/zongren.gitlab.io/)) 
+- [zongren.me](https://zongren.me/) ([Source](https://gitlab.com/zongren/zongren.gitlab.io/))
 - [DOTSLASHLINUX](http://www.dotslashlinux.com/) ([Source](https://github.com/firasuke/DOTSLASHLINUX/))
 - [Spinningnumbers.org](http://spinningnumbers.org/) ([Source](https://github.com/willymcallister/spinningnumbers))
 - [blog.justin.kelly.org.au](https://blog.justin.kelly.org.au/) ([Source](github.com/justinkelly/justinkelly.github.io))
