@@ -6,9 +6,13 @@
 
 ## Info for Dan!!!
 
-I forked this repo in order to deploy my own instance. No files have been changed in this repo since forking it, except for this small blurb in the ReadMe.
+I forked this repo in order to deploy my own instance.
 
 As per [this Staticman GitHub issue](https://github.com/eduardoboucas/staticman/issues/307) I forked the `deploy` branch of the [this unofficial Staticman repo](https://github.com/VincentTam/staticman). I then followed [these instructions](https://www.datascienceblog.net/post/other/staticman_comments/) to get Staticman deployed to my own Heroku instance at https://dansblog-staticman.herokuapp.com. If I need to update my Staticman instance for some reason, I would make the changes here and use the Heroku CLI and run `git push heroku deploy:master` (after logging in with `heroku login`).
+
+### Changes I've made since forking
+
+PR to enable multi-line values in markdown tables - https://github.com/eduardoboucas/staticman/pull/301
 
 ## Introduction
 
