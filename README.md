@@ -21,6 +21,10 @@ I've also configured the following environment variables on my heroku app:
 - `NODE_ENV`: production
 - `RSA_PRIVATE_KEY`: [redacted]
 
+To get the legacy `GITHUB_TOKEN` I followed [these instructions](https://www.datascienceblog.net/post/other/staticman_comments/) and [these ones](https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/) to setup a separate GitHub account.
+I gave that other GitHub account write permissions to my blog repo, and created a GitHub personal access token on that other account, which is the `GITHUB_TOKEN` I used in the Azure portal.
+Setting up the separate GitHub account is a safety measure so that if the `GITHUB_TOKEN` is compromised, it only has write permissions to the blog repo and not to all the repos in my regular GitHub account.
+
 ### Changes I've made since forking
 
 PR to enable multi-line values in markdown tables - https://github.com/eduardoboucas/staticman/pull/301
